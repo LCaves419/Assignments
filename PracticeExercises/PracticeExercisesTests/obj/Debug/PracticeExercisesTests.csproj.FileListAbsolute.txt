@@ -1,0 +1,9 @@
+C:\Users\Apprentice\Documents\Visual Studio 2015\Projects\PracticeExercises\PracticeExercisesTests\obj\Debug\PracticeExercisesTests.csprojResolveAssemblyReference.cache
+C:\Users\Apprentice\Documents\Visual Studio 2015\Projects\PracticeExercises\PracticeExercisesTests\bin\Debug\PracticeExercisesTests.dll
+C:\Users\Apprentice\Documents\Visual Studio 2015\Projects\PracticeExercises\PracticeExercisesTests\bin\Debug\PracticeExercisesTests.pdb
+C:\Users\Apprentice\Documents\Visual Studio 2015\Projects\PracticeExercises\PracticeExercisesTests\bin\Debug\nunit.framework.dll
+C:\Users\Apprentice\Documents\Visual Studio 2015\Projects\PracticeExercises\PracticeExercisesTests\bin\Debug\PracticeExercises.exe
+C:\Users\Apprentice\Documents\Visual Studio 2015\Projects\PracticeExercises\PracticeExercisesTests\bin\Debug\PracticeExercises.pdb
+C:\Users\Apprentice\Documents\Visual Studio 2015\Projects\PracticeExercises\PracticeExercisesTests\bin\Debug\nunit.framework.xml
+C:\Users\Apprentice\Documents\Visual Studio 2015\Projects\PracticeExercises\PracticeExercisesTests\obj\Debug\PracticeExercisesTests.dll
+C:\Users\Apprentice\Documents\Visual Studio 2015\Projects\PracticeExercises\PracticeExercisesTests\obj\Debug\PracticeExercisesTests.pdb
