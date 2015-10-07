@@ -26,7 +26,7 @@ namespace LINQ
             //2
             //InStockMoreThan3();
             //3
-            //InWashington();
+            InWashington();
             //4
             //NamesOfProducts();
             //5
@@ -55,7 +55,7 @@ namespace LINQ
             //15
             //GetAllInNumCNotBiggerThanSix();
             //16
-            //ReturnNumsUntilNumIsLessThanPositionInArray();
+           // ReturnNumsUntilNumIsLessThanPositionInArray();
             //17
             //ReturnDivisibleByThree();
             //18.
@@ -89,7 +89,7 @@ namespace LINQ
             //32
             //IfNumBOnlyLessThanNine();
             //33
-            AllProductsInCategoryInStock();
+            //AllProductsInCategoryInStock();
             //34
             //CountNumOfOddInNumA();
             //35
@@ -471,7 +471,7 @@ namespace LINQ
             }
         }
 
-        //24. Group customer orders by year, then by month. ???????PRINT
+        //24. Group customer orders by year, then by month.
         private static void OrdersByYearThenMonth()
         {
             var customer = DataLoader.LoadCustomers();
@@ -495,12 +495,24 @@ namespace LINQ
                                                              }
                                            }
                           };
-            foreach (var y in results)
+           
+            foreach (var result in results)
             {
-                Console.WriteLine("Orders by year: \n{0}", y.YearGroups);
-            }
+                foreach (var subresult in result.YearGroups)
+                {
 
-        }
+                    Console.WriteLine("Year: \n{0}", subresult.Year);
+                    foreach (var subSubResult in subresult.MonthGroups)
+                    {
+                        Console.WriteLine("Month: \n{0}", subSubResult.Month);
+                        foreach (var subSubSubResult in subSubResult.Orders)
+                        {
+                            Console.WriteLine("\t Order: {0}", subSubSubResult.OrderID);
+                        }
+                    }
+                }
+            }
+        }//end ordersbyyearmonth
 
         //25. Create a list of unique product category names.
         private static void UniqueProductCategoryNames()
@@ -619,10 +631,10 @@ namespace LINQ
             // var results = products.GroupBy(cat => cat.Category).Where(p => p.All(x => x.UnitsInStock > 0));
             foreach (var result in results)
             {
-                Console.WriteLine("{0},", result.Category);
-                foreach (var product in results)
+                Console.WriteLine("{0}:", result.Category);
+                foreach (var product in result.Products)
                 {
-                    Console.WriteLine("\t{0}", product.Products);
+                    Console.WriteLine("\t{0}", product.ProductName);
                 }
             }
         }
