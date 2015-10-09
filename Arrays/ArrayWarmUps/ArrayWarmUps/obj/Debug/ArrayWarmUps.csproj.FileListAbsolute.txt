@@ -1,0 +1,6 @@
+c:\users\apprentice\documents\visual studio 2015\Projects\ArrayWarmUps\ArrayWarmUps\bin\Debug\ArrayWarmUps.exe.config
+C:\Users\Apprentice\Documents\Visual Studio 2015\Projects\ArrayWarmUps\ArrayWarmUps\bin\Debug\ArrayWarmUps.exe
+C:\Users\Apprentice\Documents\Visual Studio 2015\Projects\ArrayWarmUps\ArrayWarmUps\bin\Debug\ArrayWarmUps.pdb
+C:\Users\Apprentice\Documents\Visual Studio 2015\Projects\ArrayWarmUps\ArrayWarmUps\obj\Debug\ArrayWarmUps.csprojResolveAssemblyReference.cache
+C:\Users\Apprentice\Documents\Visual Studio 2015\Projects\ArrayWarmUps\ArrayWarmUps\obj\Debug\ArrayWarmUps.exe
+C:\Users\Apprentice\Documents\Visual Studio 2015\Projects\ArrayWarmUps\ArrayWarmUps\obj\Debug\ArrayWarmUps.pdb

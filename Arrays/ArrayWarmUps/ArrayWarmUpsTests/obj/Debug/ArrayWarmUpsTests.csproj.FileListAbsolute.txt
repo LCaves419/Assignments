@@ -1,0 +1,9 @@
+C:\Users\Apprentice\Documents\Visual Studio 2015\Projects\ArrayWarmUps\ArrayWarmUpsTests\bin\Debug\ArrayWarmUpsTests.dll
+C:\Users\Apprentice\Documents\Visual Studio 2015\Projects\ArrayWarmUps\ArrayWarmUpsTests\bin\Debug\ArrayWarmUpsTests.pdb
+C:\Users\Apprentice\Documents\Visual Studio 2015\Projects\ArrayWarmUps\ArrayWarmUpsTests\bin\Debug\ArrayWarmUps.exe
+C:\Users\Apprentice\Documents\Visual Studio 2015\Projects\ArrayWarmUps\ArrayWarmUpsTests\bin\Debug\nunit.framework.dll
+C:\Users\Apprentice\Documents\Visual Studio 2015\Projects\ArrayWarmUps\ArrayWarmUpsTests\bin\Debug\ArrayWarmUps.pdb
+C:\Users\Apprentice\Documents\Visual Studio 2015\Projects\ArrayWarmUps\ArrayWarmUpsTests\bin\Debug\nunit.framework.xml
+C:\Users\Apprentice\Documents\Visual Studio 2015\Projects\ArrayWarmUps\ArrayWarmUpsTests\obj\Debug\ArrayWarmUpsTests.csprojResolveAssemblyReference.cache
+C:\Users\Apprentice\Documents\Visual Studio 2015\Projects\ArrayWarmUps\ArrayWarmUpsTests\obj\Debug\ArrayWarmUpsTests.dll
+C:\Users\Apprentice\Documents\Visual Studio 2015\Projects\ArrayWarmUps\ArrayWarmUpsTests\obj\Debug\ArrayWarmUpsTests.pdb

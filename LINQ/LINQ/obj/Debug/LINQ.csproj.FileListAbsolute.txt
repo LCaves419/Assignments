@@ -1,0 +1,14 @@
+C:\Users\Apprentice\Documents\Visual Studio 2015\Projects\LINQ\LINQ\bin\Debug\LINQ.exe.config
+C:\Users\Apprentice\Documents\Visual Studio 2015\Projects\LINQ\LINQ\bin\Debug\Customers.xml
+C:\Users\Apprentice\Documents\Visual Studio 2015\Projects\LINQ\LINQ\bin\Debug\LINQ.exe
+C:\Users\Apprentice\Documents\Visual Studio 2015\Projects\LINQ\LINQ\bin\Debug\LINQ.pdb
+C:\Users\Apprentice\Documents\Visual Studio 2015\Projects\LINQ\LINQ\obj\Debug\LINQ.csprojResolveAssemblyReference.cache
+C:\Users\Apprentice\Documents\Visual Studio 2015\Projects\LINQ\LINQ\obj\Debug\LINQ.exe
+C:\Users\Apprentice\Documents\Visual Studio 2015\Projects\LINQ\LINQ\obj\Debug\LINQ.pdb
+C:\repos\AssignmentsGitHubRepo\Assignments\LINQ\LINQ\bin\Debug\LINQ.exe.config
+C:\repos\AssignmentsGitHubRepo\Assignments\LINQ\LINQ\obj\Debug\LINQ.exe
+C:\repos\AssignmentsGitHubRepo\Assignments\LINQ\LINQ\obj\Debug\LINQ.pdb
+C:\repos\AssignmentsGitHubRepo\Assignments\LINQ\LINQ\bin\Debug\Customers.xml
+C:\repos\AssignmentsGitHubRepo\Assignments\LINQ\LINQ\bin\Debug\LINQ.exe
+C:\repos\AssignmentsGitHubRepo\Assignments\LINQ\LINQ\bin\Debug\LINQ.pdb
+C:\repos\AssignmentsGitHubRepo\Assignments\LINQ\LINQ\obj\Debug\LINQ.csprojResolveAssemblyReference.cache
