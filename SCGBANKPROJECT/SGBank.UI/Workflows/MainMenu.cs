@@ -41,6 +41,10 @@ namespace SGBank.UI.Workflows
             switch (choice)
             {
                 case "1":
+                    CreateAccountWorkflow caf = new CreateAccountWorkflow();
+                    caf.Execute();
+                    Console.ReadLine();
+                    break;
                 case "2":
                     Console.WriteLine("This feature is not implemented yet!");
                     Console.WriteLine("Press enter to continue...");

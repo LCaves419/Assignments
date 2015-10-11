@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using NUnit.Framework;
 using SGBank.Data;
+using SGBank.Models;
 
 namespace SGBank.Tests
 {
@@ -20,6 +21,26 @@ namespace SGBank.Tests
 
             Assert.AreEqual(1, account.AccountNumber);
             Assert.AreEqual("Mary", account.FirstName);
+        }
+
+        [Test]
+        public void WriteNewAccount()
+        {
+            Account account = new Account();
+            account.FirstName = "Victor";
+            account.LastName = "Smith";
+            account.Balance = 1000000000000.00M;
+
+            var repo = new AccountRepository();
+            var accounts = repo.GetAllAccounts();
+            var numAccounts = accounts.Count;
+
+            repo.WriteNewLine(account);
+
+            var accountsAfterAdd = repo.GetAllAccounts();
+            var numAccountsAfterAdd = accountsAfterAdd.Count;
+
+            Assert.AreEqual(numAccounts +1, numAccountsAfterAdd);
         }
     }
 }

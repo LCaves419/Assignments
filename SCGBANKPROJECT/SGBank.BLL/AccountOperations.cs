@@ -64,7 +64,6 @@ namespace SGBank.BLL
             {
                 response.Success = false;
                 response.Message = " Insufficent funds";
-                
             }
             else
             {
@@ -81,5 +80,51 @@ namespace SGBank.BLL
             }
             return response;
         }
+
+        public Response CreateAccount()
+        {
+            AccountRepository repo = new AccountRepository();
+            Account newAccount = new Account();
+            Response response = new Response();
+
+            newAccount.AccountNumber = 1;
+            Console.Write("Account holder First name :");
+            newAccount.FirstName = Console.ReadLine();
+            Console.Write("Account holder Last name :");
+            newAccount.LastName = Console.ReadLine();
+          
+            newAccount.Balance = 0.00M;
+            
+
+             int returnedAccountNumber = repo.WriteNewLine(newAccount);
+
+            if (returnedAccountNumber == repo.GetAllAccounts().Count)
+            {
+                response.Success = true;
+
+                response.CreateAccountInfo = new CreateAccountSlip();
+                response.CreateAccountInfo.AccountNumber = returnedAccountNumber;
+                response.CreateAccountInfo.FirstName = newAccount.FirstName;
+                response.CreateAccountInfo.LastName = newAccount.LastName;
+                response.CreateAccountInfo.NewBalance = newAccount.Balance;
+
+            }
+            else
+            {
+                response.Success = false;
+                response.Message = "The account was not created, please try again.";
+            }
+
+            return response;
+        }
+
+        public Response Transfer()
+        {
+            Response response = new Response();
+            return response;
+
+        }
+
+
     }
 }

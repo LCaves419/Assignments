@@ -16,8 +16,10 @@ namespace SGBank.Data
         {
             List<Account> accounts = new List<Account>();
 
+            //read all lines in file\Bank.txt
             var reader = File.ReadAllLines(_filePath);
 
+            //i = 1 starts on line 1 not 0.
             for (int i = 1; i < reader.Length; i++)
             {
                 var columns = reader[i].Split(',');
@@ -66,5 +68,23 @@ namespace SGBank.Data
                 }
             }
         }
-    }
+
+        //Create Account
+        public int WriteNewLine(Account account)
+        {
+            //write a new line a way to calculate new line number
+            var accounts = GetAllAccounts();
+            int newAccountNumber = accounts.Count+1;//+1 will be the new acct number
+
+            using (var writer = File.AppendText(_filePath))//appends to the end of existing file
+            {
+                writer.WriteLine("{0},{1},{2},{3}", newAccountNumber, account.FirstName,
+                        account.LastName, account.Balance);
+            }
+
+            return newAccountNumber;
+        }
+
+
+    }//end class
 }
